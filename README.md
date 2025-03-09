@@ -21,6 +21,17 @@ tests/red_black_tree_test.py::test_deletion PASSED
 
 
 pytest tests/red_black_tree_performance_test.py -v -s
+
+collecting ...
+Size: 100000 | Insert: 0.4199s | Search: 0.2474s | Delete: 0.2353s
+Size: 200000 | Insert: 0.9376s | Search: 0.5709s | Delete: 0.5643s
+Size: 400000 | Insert: 2.7421s | Search: 1.5049s | Delete: 1.3954s
+Size: 600000 | Insert: 4.8617s | Search: 2.2210s | Delete: 2.2496s
+Size: 800000 | Insert: 7.3636s | Search: 3.5270s | Delete: 3.1477s
+collected 1 item      
+
+
+
 pytest tests/counting_sort_test.py -v -s
 pytest tests/counting_sort_performance_test.py -v -s
 ```
