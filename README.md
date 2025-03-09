@@ -70,4 +70,7 @@ red-black-tree performance
 Figure out when Counting Sort doesn’t perform
 Counting sort is memory-inefficient when difference between min and max value (K) is much larger than number of elements (N)
 
+![изображение](https://github.com/user-attachments/assets/ceea3e5d-a801-4792-b244-67f56c27b365)
+
+
 
