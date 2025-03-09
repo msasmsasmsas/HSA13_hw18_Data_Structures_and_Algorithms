@@ -12,10 +12,10 @@ Figure out when Counting Sort doesn’t perform.
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-pytest tests/test_red_black_tree.py -v -s
-pytest tests/test_red_black_tree_performance.py -v -s
-pytest tests/test_counting_sort.py -v -s
-pytest tests/test_counting_sort_performance.py -v -s
+pytest tests/red_black_tree-test.py -v -s
+pytest tests/red_black_tree_test_performance.py -v -s
+pytest tests/counting_sort_test.py -v -s
+pytest tests/counting_sort_test_performance.py -v -s
 ```
 
 red-black-tree performance
