@@ -64,6 +64,9 @@ pytest tests/counting_sort_performance_test.py -v -s
 red-black-tree performance
 Figure out when Counting Sort doesn’t perform
 
+![изображение](https://github.com/user-attachments/assets/aaf727cd-48e9-49fb-83dd-f1c323e48a66)
+
+
 Counting sort is memory-inefficient when difference between min and max value (K) is much larger than number of elements (N)
 
 red-black-tree performance
