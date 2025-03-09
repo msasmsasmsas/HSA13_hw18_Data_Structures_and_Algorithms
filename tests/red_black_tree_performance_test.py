@@ -14,7 +14,7 @@ def measure_time(func, *args):
 def test_red_black_tree_performance():
     """Measures the performance of insert, search, and delete operations."""
 
-    sizes = [100000, 200000, 400000]  # Different dataset sizes
+    sizes = [100000, 200000, 400000, 600000, 800000]  # Different dataset sizes
     insert_times = []
     search_times = []
     delete_times = []

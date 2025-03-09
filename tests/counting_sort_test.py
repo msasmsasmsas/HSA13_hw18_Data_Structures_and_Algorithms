@@ -3,7 +3,7 @@ import random
 from counting_sort.counting_sort import counting_sort
 
 def test_counting_sort():
-    sizes = [1, 5, 20]
+    sizes = [1, 5, 20, 50, 100, 200]
 
     for size in sizes:
         data = random.sample(range(1, size * 10), size)

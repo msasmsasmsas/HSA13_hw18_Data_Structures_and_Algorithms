@@ -14,7 +14,7 @@ def measure_time(func, *args):
 def test_counting_sort_performance():
     small_k = 10
     large_k = 100
-    sizes = [10000, 50000, 200000]  # Different dataset sizes
+    sizes = [10000, 50000, 200000, 500000, 1000000]  # Different dataset sizes
     sort_times_per_size = []
     sort_times_per_delta = []
 

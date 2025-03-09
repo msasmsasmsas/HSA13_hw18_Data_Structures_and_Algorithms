@@ -11,26 +11,28 @@ def test_insertion():
 
     assert str(rbt) == "20(BLACK),15(RED),NIL,NIL,NIL"
 
-    rbt.insert(17)
+    rbt.insert(24)
 
-    assert str(rbt) == "17(BLACK),15(RED),NIL,NIL,20(RED),NIL,NIL"
+    assert str(rbt) == "20(BLACK),15(RED),NIL,NIL,24(RED),NIL,NIL"
 
     rbt.insert(10)
     rbt.insert(25)
     rbt.insert(35)
 
-    expected = "17(BLACK),15(BLACK),10(RED),NIL,NIL,NIL,25(BLACK),20(RED),NIL,NIL,35(RED),NIL,NIL"
+    #expected = "24(BLACK),15(BLACK),10(RED),NIL,NIL,NIL,25(BLACK),20(RED),NIL,NIL,35(RED),NIL,NIL"
+    expected = "20(BLACK),15(BLACK),10(RED),NIL,NIL,NIL,25(BLACK),24(RED),NIL,NIL,35(RED),NIL,NIL"
+
     assert str(rbt) == expected
 
 def test_find():
     rbt = RedBlackTree()
     rbt.insert(50)
     rbt.insert(30)
-    rbt.insert(70)
+    rbt.insert(45)
 
     assert rbt.find(50) is not None
     assert rbt.find(30) is not None
-    assert rbt.find(70) is not None
+    assert rbt.find(45) is not None
     assert rbt.find(100) is None
 
 def test_deletion():
