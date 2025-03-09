@@ -13,6 +13,13 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 pytest tests/red_black_tree-test.py -v -s
+
+tests/red_black_tree_test.py::test_insertion PASSED
+tests/red_black_tree_test.py::test_find PASSED
+tests/red_black_tree_test.py::test_deletion PASSED
+
+
+
 pytest tests/red_black_tree_performance_test.py -v -s
 pytest tests/counting_sort_test.py -v -s
 pytest tests/counting_sort_performance_test.py -v -s
